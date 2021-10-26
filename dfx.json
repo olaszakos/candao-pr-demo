@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "candao_pr_demo": {
+      "main": "src/candao_pr_demo/main.mo",
+      "type": "motoko"
+    },
+    "candao_pr_demo_assets": {
+      "dependencies": [
+        "candao_pr_demo"
+      ],
+      "frontend": {
+        "entrypoint": "src/candao_pr_demo_assets/src/index.html"
+      },
+      "source": [
+        "src/candao_pr_demo_assets/assets",
+        "dist/candao_pr_demo_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.1",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
