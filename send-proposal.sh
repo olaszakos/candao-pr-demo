@@ -4,6 +4,6 @@ set -e
 
 dfx build
 
-echo $BOT_IDENTITY > identity.pem
+echo "$BOT_IDENTITY" > identity.pem
 
 ic-repl --replica ic send-proposal.repl
