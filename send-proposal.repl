@@ -1,0 +1,13 @@
+identity bot "./identity.pem";
+
+import candao = "m76oj-nyaaa-aaaaj-aacaq-cai";
+
+let _ = call candao.create_proposal(variant {
+  InstallCanister = record {
+    canister_id = principal "kuxy6-xiaaa-aaaaj-aacxq-cai";
+    mode = variant { install };
+    wasm_module = file "./.dfx/local/canisters/candao_pr_demo/candao_pr_demo.wasm";
+    arg = encode ();
+  }
+});
+_;

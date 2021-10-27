@@ -3,19 +3,6 @@
     "candao_pr_demo": {
       "main": "src/candao_pr_demo/main.mo",
       "type": "motoko"
-    },
-    "candao_pr_demo_assets": {
-      "dependencies": [
-        "candao_pr_demo"
-      ],
-      "frontend": {
-        "entrypoint": "src/candao_pr_demo_assets/src/index.html"
-      },
-      "source": [
-        "src/candao_pr_demo_assets/assets",
-        "dist/candao_pr_demo_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
