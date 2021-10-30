@@ -22,7 +22,7 @@ actor {
 "    <script src=\"https://cdn-tailwindcss.vercel.app/\"></script>" #
 "  </head>" #
 "  <body class=\"flex min-h-screen items-center justify-center bg-indigo-50\">" #
-"    <h1 class=\"text-indigo-700 text-center text-5xl font-bold drop-shadow-md\">" #
+"    <h1 class=\"text-indigo-700 text-center text-5xl font-bold drop-shadow-md underline\">" #
 "      Hello Encode x DFINITY!" #
 "    </h1>" #
 "  </body>" #
